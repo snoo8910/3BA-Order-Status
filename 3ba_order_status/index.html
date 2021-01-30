@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>3BA Order Status</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="">
+<script src="https://kit.fontawesome.com/a87483a3bf.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+<div id="logo">
+	<h2> 3BA </h2>
+</div>
+
+<div id="nav">
+	<a href="https://3baprinting.com/" target="_blank">Back to 3BA Website</a>
+</div>
+
+<div id="main">
+	<h1> Due to high volumes of orders and requests, 
+	please enter your order number to check its status</h1>
+
+<body>
+<div class="wrapper">
+	<input type="text" class="input" placeholder="Enter Order Number">
+
+	<div class="searchbtn">
+		<i class="fas fa-search"></i>
+	</div>
+</div>
+
+<!-- Recaptcha submit button !-->
+<script type="text/javascript" src="Recaptcha.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+<button class="g-recaptcha" 
+        data-sitekey="reCAPTCHA_site_key" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>	
+</body>
+<footer>
+	<h5>Copyright© 2021 3BA Printing - All Rights Reserved.</h5>
+</footer>
+<script type="text/javascript" src = "status.js"></script>
+</html>	
